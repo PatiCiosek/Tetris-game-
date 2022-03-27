@@ -1,0 +1,83 @@
+body {
+background-image: url(2.jpg);
+background-color: black;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.grid {
+    width: 270px;
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(phone2.jpg);
+    background-size:cover;
+    box-shadow: 0 0 15px rgba(166, 245, 245, 0.2);
+    border-radius: 0.5rem;
+}
+.grid div {
+height: 27px;
+width: 27px;
+}
+
+.tetromino {
+    background: linear-gradient(to right bottom, 
+    rgb(250, 177, 177),
+    rgb(247, 76, 76));
+    border-radius: 1rem;
+    box-shadow: 0 0 5px rgb(243, 200, 200);
+}
+
+.mini-grid{
+    margin-left: 50px;
+    width: 108px;
+    height: 108px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(grid.jpg);
+    background-color: black;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 15px rgba(166, 245, 245, 0.2);
+}
+
+.mini-grid div {
+    height: 27px;
+    width: 27px;
+}
+
+h3 {
+    color: rgb(166, 245, 245);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+#startBtn{ 
+    color: rgb(166, 245, 245);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    background-color: transparent;
+    border-width: 3px;
+    border-radius: 0.5rem;
+    border-color: rgb(166, 245, 245);
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+}
+#startBtn:hover {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    box-shadow: 0 0 15px rgb(54, 95, 156);
+}
